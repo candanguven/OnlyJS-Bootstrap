@@ -1,15 +1,55 @@
 <!DOCTYPE html>
 <html lang="tr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>OnlyJS Bootstrap</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-</head>
-<body>
-    <h1>Bootstrap öğreniyoruz.</h1>
-    <button type="button" class="btn btn-primary">Primary</button>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
-
-</body>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <style>
+        [class*= col]
+        {
+            padding: 1rem;
+            background-color: #198754;
+            border: 2px solid #000000;
+            color: #000000;
+            text-align: center;
+        }
+        [class*="container"]
+        {
+            padding: 1rem;
+            background-color: #adb5bd;
+            border: 2px solid #000000;
+            color: #000000;
+            text-align: center;
+        }
+    </style>
+  </head>
+  <body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+    <div class="container">
+      <h1>Bootstrap öğreniyoruz.</h1>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui iusto
+        omnis illum quod cum aut voluptatum doloremque facilis quisquam. Aliquam
+        sint unde quae, minima debitis similique doloribus incidunt eveniet,
+        necessitatibus magnam nisi magni deleniti quasi commodi in dicta
+        aliquid! Nam aliquid soluta obcaecati, totam ullam atque iste sint
+        eligendi beatae!
+      </p>
+      <div class="row">
+        <div class="col">ilk sütun</div>
+        <div class="col">ikinci sütun</div>
+        <div class="col">Üçüncü Sütun</div>
+      </div>
+    </div>
+  </body>
 </html>
